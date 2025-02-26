@@ -116,7 +116,7 @@ Clones the TicTacToe project repository from GitHub into the `/home/ec2-user/` d
 
 ```bash
 cd /home/ec2-user/
-git clone https://github.com/avizway1/tictactoe-with-DynamoDB.git
+git clone https://github.com/Akalya-Dharshini/TicTacToe-AWS.git
 ```
 
 Create a file inside the code location provide file name as "config.ini" and add below entry. make sure to change the region accordingly.
@@ -140,4 +140,3 @@ Once all content is ready, Navigate to the project location and run below comman
 python application.py --config config.ini --mode service --endpoint dynamodb.ap-south-2.amazonaws.com --serverPort 5000
 ```
 
-Then Open browser and enter **http://instance-public-ip:5000/** and enter to access the application.
